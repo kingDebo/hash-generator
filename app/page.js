@@ -31,7 +31,7 @@ export default function Home() {
             name="plaintext"
           />
           <input
-            className="p-4"
+            className="p-4 text-black"
             type="text"
             name="cypher"
             value={state?.message}
