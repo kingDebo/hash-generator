@@ -18,16 +18,16 @@ export default function Home() {
         <form className="flex flex-col" action={formAction}>
           <div className="mb-6">
             <label for="method">Hash Algorithm:</label>
-            <select className="mx-2 p-2" name="method" id="method">
+            <select className="mx-2 p-2 text-black bg-white" name="method" id="method">
               <option>HMACSHA256</option>
               <option>HMACSHA384</option>
               <option>HMACSHA512</option>
             </select>
             <label for="key">Hash Key:</label>
-            <input className="mx-2 p-2" type="text" name="key" id="key" />
+            <input className="mx-2 p-2 text-black bg-white" type="text" name="key" id="key" />
           </div>
           <textarea
-            className="max-w-4xl w-screen-md aspect-[2/1] p-4"
+            className="max-w-4xl w-screen-md aspect-[2/1] p-4 text-black bg-white"
             name="plaintext"
           />
           <input
